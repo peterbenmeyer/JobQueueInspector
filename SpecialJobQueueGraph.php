@@ -12,12 +12,9 @@ class SpecialJobQueueGraph extends SpecialPage {
 		);
 	}
 
-	function execute( $parser = null ) {
-
+	public function execute( $parser = null ) {
 		$output = $this->getOutput();
 		$output->addHTML( '<div style="width:100%;"><canvas id="canvas"></canvas></div>' );
 		$output->addModules( 'ext.jobqueueinspector.jobqueue' );
-
 	}
-
 }

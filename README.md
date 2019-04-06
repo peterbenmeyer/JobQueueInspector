@@ -13,3 +13,4 @@ James Montalvo started this software on April 5, 2019 at EMWCon 2019
 
 Here is the extension running, or a predecessor or successor extension running:  https://enterprisemediawiki.org/demo/index.php/Special:JobQueueGraph
 
+forked from enterprisemediawiki/JobQueueInspector for now
